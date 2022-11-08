@@ -1,0 +1,25 @@
+{
+  "name": "test_vanilla_js",
+  "version": "1.0.0",
+  "description": "Quick Jest testing tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "babel-jest": "^29.2.2"
+  }
+}
